@@ -149,6 +149,70 @@ switch(_shop) do
 		};
 	};
 	
+	case "malfrat":
+	{
+		switch(true) do
+		{
+			case (playerSide != civilian): {"You are not a civilian!"};
+			case (!license_civ_malfrat): {"You don't have a Malfrat training license!"};
+			default
+			{
+				["Malfrat Shop",
+					[
+					    ["srifle_DMR_01_DMS_F",nil,60000],
+						["arifle_Katiba_F",nil,30000],
+						["arifle_SDAR_F",nil,20000],
+						["arifle_Mk20_plain_F",nil,25000],
+						["hgun_PDW2000_F",nil,10000],
+						["hgun_Pistol_heavy_02_F",nil,9850],
+						["optic_ACO_grn",nil,3500],
+						["optic_Holosight",nil,3600],
+						["acc_flashlight",nil,1000],
+						["optic_Hamr",nil,7500],
+						["30Rnd_9x21_Mag",nil,200],
+						["20Rnd_556x45_UW_mag",nil,125],
+						["30Rnd_65x39_caseless_green",nil,275],
+						["10Rnd_762x54_Mag",nil,400],
+						["30Rnd_9x21_Mag",nil,115],
+						["16Rnd_9x21_Mag",nil,100],
+						["30Rnd_556x45_Stanag"nil",nil,150],
+						["30Rnd_556x45_Stanag_Tracer_Red",nil,275],
+						["6Rnd_45ACP_Cylinder",nil,50]
+					]
+				];
+			};
+		};
+	};
+	
+	case "delinquant":
+	{
+		switch(true) do
+		{
+			case (playerSide != civilian): {"You are not a civilian!"};
+			case (!license_civ_delinquant): {"You don't have a Delinquant training license!"};
+			default
+			{
+				["Délinquant Shop",
+					[
+						["arifle_TRG20_F",nil,25000],
+						["arifle_Katiba_F",nil,30000],
+						["srifle_DMR_01_F",nil,50000],
+						["arifle_SDAR_F",nil,20000],
+						["optic_ACO_grn",nil,3500],
+						["optic_Holosight",nil,3600],
+						["acc_flashlight",nil,1000],
+						["optic_Hamr",nil,7500],
+						["30Rnd_9x21_Mag",nil,200],
+						["20Rnd_556x45_UW_mag",nil,125],
+						["30Rnd_556x45_Stanag",nil,300],
+						["10Rnd_762x51_Mag",nil,500],
+						["30Rnd_65x39_caseless_green",nil,275]
+					]
+				];
+			};
+		};
+	};
+	
 	case "gun":
 	{
 		switch(true) do
@@ -160,14 +224,12 @@ switch(_shop) do
 				["Billy Joe's Firearms",
 					[
 						["hgun_Rook40_F",nil,6500],
-						["hgun_Pistol_heavy_02_F",nil,9850],
 						["hgun_ACPC2_F",nil,11500],
 						["hgun_PDW2000_F",nil,20000],
 						["optic_ACO_grn_smg",nil,2500],
 						["V_Rangemaster_belt",nil,4900],
 						["16Rnd_9x21_Mag",nil,25],
 						["9Rnd_45ACP_Mag",nil,45],
-						["6Rnd_45ACP_Cylinder",nil,50],
 						["30Rnd_9x21_Mag",nil,75]
 					]
 				];
