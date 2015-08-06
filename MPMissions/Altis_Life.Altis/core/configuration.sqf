@@ -24,7 +24,7 @@ life_bail_paid = false;
 life_impound_inuse = false;
 life_action_inUse = false;
 life_spikestrip = ObjNull;
-life_respawn_timer = 2; //Scaled in minutes
+life_respawn_timer = 0,3; //Scaled in minutes
 life_knockout = false;
 life_interrupted = false;
 life_respawned = false;
@@ -87,18 +87,18 @@ switch (playerSide) do
 {
 	case west: 
 	{
-		life_atmcash = 7000; //Starting Bank Money
-		life_paycheck = 500; //Paycheck Amount
+		life_atmcash = 15000; //Starting Bank Money
+		life_paycheck = 3000; //Paycheck Amount
 	};
 	case civilian: 
 	{
-		life_atmcash = 3000; //Starting Bank Money
-		life_paycheck = 350; //Paycheck Amount
+		life_atmcash = 7500; //Starting Bank Money
+		life_paycheck = 2000; //Paycheck Amount
 	};
 	
 	case independent: {
-		life_atmcash = 6500;
-		life_paycheck = 450;
+		life_atmcash = 15000;
+		life_paycheck = 2500;
 	};
 };
 
@@ -203,7 +203,7 @@ life_illegal_items = [["heroinu",1200],["heroinp",2500],["cocaine",1500],["cocai
 */
 sell_array = 
 [
-	["apple",50],
+	["pomme",50],
 	["heroinu",1850],
 	["heroinp",2650],
 	["salema",45],
@@ -242,7 +242,7 @@ __CONST__(sell_array,sell_array);
 
 buy_array = 
 [
-	["apple",65],
+	["pomme",65],
 	["rabbit",75],
 	["salema",55],
 	["ornate",50],
