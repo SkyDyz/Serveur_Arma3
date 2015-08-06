@@ -203,7 +203,7 @@ life_illegal_items = [["heroinu",1200],["heroinp",2500],["cocaine",1500],["cocai
 */
 sell_array = 
 [
-	["pomme",50],
+	["apple",50],
 	["heroinu",1850],
 	["heroinp",2650],
 	["salema",45],
@@ -242,7 +242,7 @@ __CONST__(sell_array,sell_array);
 
 buy_array = 
 [
-	["pomme",65],
+	["apple",65],
 	["rabbit",75],
 	["salema",55],
 	["ornate",50],
