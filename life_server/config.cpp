@@ -71,6 +71,13 @@ class CfgFunctions
 		
 		class Jail_Sys
 		{
+			class Jail_Sys
+        {
+            file = "\life_server\Functions\Jail";
+            class jailSys {};
+            class jailTimer {}; <------Ajouté Ceci
+            class jailPlayer {}; <------Ajouté Ceci
+        };
 			file = "\life_server\Functions\Jail";
 			class jailSys {};
 		};
