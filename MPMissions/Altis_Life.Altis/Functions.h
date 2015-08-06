@@ -268,7 +268,6 @@ class Life_Client_Core
 	};
 	
 	class Cop
-class Cop
 	{
 		file = "core\cop";
 		class copMarkers {};
