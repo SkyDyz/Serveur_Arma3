@@ -104,7 +104,7 @@ switch (playerSide) do
 		life_paycheck = 2500;
 	};
 };
-
+ 
 /*
 	Master Array of items?
 */
