@@ -179,6 +179,7 @@ life_licenses =
 	["license_civ_truck","civ"],
 	["license_civ_gun","civ"],
 	["license_civ_rebel","civ"],
+	["license_civ_delinquant","civ"],
 	["license_civ_coke","civ"],
 	["license_civ_diamond","civ"],
 	["license_civ_copper","civ"],
