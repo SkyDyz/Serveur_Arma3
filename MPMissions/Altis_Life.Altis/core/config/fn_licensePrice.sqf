@@ -26,7 +26,7 @@ switch (_type) do
 	case "gang": {10000}; //Gang license cost
 	case "rebel": {75000}; //Rebel license cost
 	case "delinquant": {50000}; //Délinquants license cost
-	case "malfrat": {40000}; // Malfrats license cost
+	case "gangster": {40000}; // Gangster license cost
 	case "truck": {20000}; //Truck license cost
 	case "diamond": {35000};
 	case "salt": {12000};

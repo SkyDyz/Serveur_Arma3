@@ -502,7 +502,7 @@ switch(_shop) do
 			case (!license_civ_rebel): {"You don't have a Rebel training license!"};
 			default
 			{
-				["Mohammed's Jihadi Shop",
+				["Rebel Shop",
 					[
 						["arifle_TRG20_F",nil,25000],
 						["arifle_Katiba_F",nil,30000],
@@ -523,15 +523,15 @@ switch(_shop) do
 		};
 	};
 	
-	case "malfrat":
+	case "gangster":
 	{
 		switch(true) do
 		{
 			case (playerSide != civilian): {"You are not a civilian!"};
-			case (!license_civ_malfrat): {"You don't have a Malfrat training license!"};
+			case (!license_civ_gangster): {"You don't have a Gangster training license!"};
 			default
 			{
-				["Malfrat Shop",
+				["Gangster Shop",
 					[
 					    ["srifle_DMR_01_DMS_F",nil,60000],
 						["arifle_Katiba_F",nil,30000],

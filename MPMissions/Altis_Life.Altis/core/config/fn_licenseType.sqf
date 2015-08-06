@@ -31,7 +31,7 @@ switch (_mode) do
 			case "gang": {_var = "license_civ_gang"}; //Gang license cost
 			case "rebel": {_var = "license_civ_rebel"}; //Rebel License
 			case "delinquant": {_var = "license_civ_delinquant"}; //Délinquant License
-			case "malfrat": {_var = "license_civ_malfrat"}; // Malfrats license
+			case "gangster": {_var = "license_civ_gangster"}; // Gangster license
 			case "truck":{_var = "license_civ_truck"}; //Truck License
 			case "diamond": {_var = "license_civ_diamond"};
 			case "salt": {_var = "license_civ_salt"};

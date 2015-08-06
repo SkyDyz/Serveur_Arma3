@@ -33,6 +33,7 @@ life_action_gathering = false;
 life_god = false; 
 life_frozen = false; 
 life_markers = false; 
+life_earplugs = false;
 
 //Persistent Saving
 __CONST__(life_save_civ,TRUE); //Save weapons for civs?
@@ -182,7 +183,8 @@ life_licenses =
 	["license_civ_truck","civ"],
 	["license_civ_gun","civ"],
 	["license_civ_rebel","civ"],
-	["license_civ_delinquant","civ"],
+	["license_civ_gangster","civ"],
+	["license_civ_delinquantnt","civ"],
 	["license_civ_coke","civ"],
 	["license_civ_diamond","civ"],
 	["license_civ_copper","civ"],
