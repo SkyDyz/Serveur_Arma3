@@ -50,19 +50,16 @@ switch(_shop) do
 			{
 				["Altis Recrue Shop",
 					[
-						["arifle_sdar_F","Taser Rifle",20000],
+						["SMG_02_F","nil",1000],
 						["hgun_P07_snds_F","Stun Pistol",2000],
-						["hgun_P07_F",nil,7500],
-						["HandGrenade_Stone","Flashbang",1700],
+						["optic_Aco_smg",nil,500],
 						["Binocular",nil,150],
 						["ItemGPS",nil,100],
 						["ToolKit",nil,250],
-						["muzzle_snds_L",nil,650],
 						["FirstAidKit",nil,150],
-						["Medikit",nil,1000],
 						["NVGoggles",nil,2000],
 						["16Rnd_9x21_Mag",nil,50],
-						["20Rnd_556x45_UW_mag","Taser Rifle Magazine",125]
+						["30Rnd_9x21_Mag",nil,250]
 					]
 				];
 			};
@@ -79,16 +76,20 @@ switch(_shop) do
 			{
 				["Altis Gardiens de la Paix Shop",
 					[
-						["arifle_MX_F",nil,35000],
-						["SMG_02_ACO_F",nil,30000],
-						["HandGrenade_Stone","Flashbang",1700],
-						["MineDetector",nil,1000],
-						["acc_flashlight",nil,750],
-						["optic_Holosight",nil,1200],
-						["optic_Arco",nil,2500],
-						["muzzle_snds_H",nil,2750],
-						["30Rnd_65x39_caseless_mag",nil,130],
-						["30Rnd_9x21_Mag",nil,250]
+					    ["arifle_Mk20C_F",nil,2500],
+						["SMG_02_F","nil",1000],
+						["hgun_P07_snds_F","Stun Pistol",2000],
+						["optic_Aco_smg",nil,500],
+						["optic_Holosight",nil,600],
+						["Binocular",nil,150],
+						["ItemGPS",nil,100],
+						["ToolKit",nil,250],
+						["FirstAidKit",nil,150],
+						["NVGoggles",nil,2000],
+						["16Rnd_9x21_Mag",nil,50],
+						["30Rnd_9x21_Mag",nil,250],
+						["30Rnd_556x45_Stanag",nil,280],
+						["30Rnd_556x45_Stanag_Tracer_Red",nil,350]
 					]
 				];
 			};
@@ -105,15 +106,22 @@ switch(_shop) do
 			{
 				["Altis Brigadier Shop",
 					[
-						["SMG_02_ACO_F",nil,15000],
-						["hgun_ACPC2_F",nil,17500],
-						["HandGrenade_Stone","Flashbang",1700],
-						["arifle_MXC_F",nil,30000],
-						["optic_Arco",nil,2500],
-						["muzzle_snds_H",nil,2750],
-						["30Rnd_65x39_caseless_mag",nil,100],
-						["30Rnd_9x21_Mag",nil,60],
-						["9Rnd_45ACP_Mag",nil,200]
+					    ["arifle_SDAR_F",nil,3500],
+					    ["arifle_Mk20C_F",nil,2500],
+						["SMG_02_F","nil",1000],
+						["hgun_P07_snds_F","Stun Pistol",2000],
+						["optic_Aco_smg",nil,500],
+						["optic_Holosight",nil,600],
+						["Binocular",nil,150],
+						["ItemGPS",nil,100],
+						["ToolKit",nil,250],
+						["FirstAidKit",nil,150],
+						["NVGoggles",nil,2000],
+						["16Rnd_9x21_Mag",nil,50],
+						["30Rnd_9x21_Mag",nil,250],
+						["30Rnd_556x45_Stanag",nil,280],
+						["30Rnd_556x45_Stanag_Tracer_Red",nil,350],
+						["30Rnd_556x45_Stanag",nil,400]
 					]
 				];
 			};
@@ -130,15 +138,27 @@ switch(_shop) do
 			{
 				["Altis Caporal Shop",
 					[
-						["SMG_02_ACO_F",nil,15000],
-						["hgun_ACPC2_F",nil,17500],
+					    ["arifle_MXM_Black_F",nil,4000], //MXM Noir
+						["30Rnd_65x39_caseless_mag",nil,350], //Munition MXM
+						["30Rnd_65x39_caseless_mag_Tracer",nil,450], //Munition tracer MXM
+					    ["arifle_SDAR_F",nil,3500], //SDAR
+						["30Rnd_556x45_Stanag_Tracer_Red",nil,350], //Munition SDAR
+						["30Rnd_556x45_Stanag",nil,400], //Munition SDAR tracer
+					    ["arifle_Mk20C_F",nil,2500], //MK20
+						["30Rnd_556x45_Stanag",nil,280], //Munition MK20
+						["SMG_02_F","nil",1000], //Sting 9mm
+						["30Rnd_9x21_Mag",nil,250], //Munition Sting 9mm
+						["hgun_P07_snds_F","Stun Pistol",2000], //Tazer
+						["16Rnd_9x21_Mag",nil,50], //Munition Tazer
+						["optic_Aco_smg",nil,500],
+						["optic_Holosight",nil,600],
+						["optic_Hamr",nil,750],,
 						["HandGrenade_Stone","Flashbang",1700],
-						["arifle_MXC_F",nil,30000],
-						["optic_Arco",nil,2500],
-						["muzzle_snds_H",nil,2750],
-						["30Rnd_65x39_caseless_mag",nil,100],
-						["30Rnd_9x21_Mag",nil,60],
-						["9Rnd_45ACP_Mag",nil,200]
+						["Binocular",nil,150],
+						["ItemGPS",nil,100],
+						["ToolKit",nil,250],
+						["FirstAidKit",nil,150],
+						["NVGoggles",nil,2000]
 					]
 				];
 			};
@@ -155,15 +175,28 @@ switch(_shop) do
 			{
 				["Altis Adjudant Shop",
 					[
-						["SMG_02_ACO_F",nil,15000],
-						["hgun_ACPC2_F",nil,17500],
+					    ["arifle_MXM_Black_F",nil,4000],             //MXM Noir
+						["30Rnd_65x39_caseless_mag",nil,350],        //Munition MXM
+						["30Rnd_65x39_caseless_mag_Tracer",nil,450], //Munition tracer MXM
+					    ["arifle_SDAR_F",nil,3500],                  //SDAR
+						["30Rnd_556x45_Stanag_Tracer_Red",nil,350],  //Munition SDAR
+						["30Rnd_556x45_Stanag",nil,400],             //Munition SDAR tracer
+					    ["arifle_Mk20C_F",nil,2500],                 //MK20
+						["30Rnd_556x45_Stanag",nil,280],             //Munition MK20
+						["SMG_02_F","nil",1000],                     //Sting 9mm
+						["30Rnd_9x21_Mag",nil,250],                  //Munition Sting 9mm
+						["hgun_P07_snds_F","Stun Pistol",2000],      //Tazer
+						["16Rnd_9x21_Mag",nil,50],                   //Munition Tazer
+						["optic_Aco_smg",nil,500],
+						["optic_Holosight",nil,600],
+						["optic_Hamr",nil,750],
+						["acc_flashlight",nil,1000],
 						["HandGrenade_Stone","Flashbang",1700],
-						["arifle_MXC_F",nil,30000],
-						["optic_Arco",nil,2500],
-						["muzzle_snds_H",nil,2750],
-						["30Rnd_65x39_caseless_mag",nil,100],
-						["30Rnd_9x21_Mag",nil,60],
-						["9Rnd_45ACP_Mag",nil,200]
+						["Binocular",nil,150],
+						["ItemGPS",nil,100],
+						["ToolKit",nil,250],
+						["FirstAidKit",nil,150],
+						["NVGoggles",nil,2000]
 					]
 				];
 			};
@@ -180,15 +213,32 @@ switch(_shop) do
 			{
 				["Altis Sergent Shop",
 					[
-						["SMG_02_ACO_F",nil,15000],
-						["hgun_ACPC2_F",nil,17500],
+					    ["arifle_MX_SW_F",nil,7000],                  //MX SW
+						["100Rnd_65x39_caseless_mag",nil,700],        //Munition MX SW
+						["100Rnd_65x39_caseless_mag_Tracer",nil,800], //Munition tracer MX SW
+					    ["arifle_MXM_Black_F",nil,4000],              //MXM Noir
+						["30Rnd_65x39_caseless_mag",nil,350],         //Munition MXM
+						["30Rnd_65x39_caseless_mag_Tracer",nil,450],  //Munition tracer MXM
+					    ["arifle_SDAR_F",nil,3500],                   //SDAR
+						["30Rnd_556x45_Stanag_Tracer_Red",nil,350],   //Munition SDAR
+						["30Rnd_556x45_Stanag",nil,400],              //Munition SDAR tracer
+					    ["arifle_Mk20C_F",nil,2500],                  //MK20
+						["30Rnd_556x45_Stanag",nil,280],              //Munition MK20
+						["SMG_02_F","nil",1000],                      //Sting 9mm
+						["30Rnd_9x21_Mag",nil,250],                   //Munition Sting 9mm
+						["hgun_P07_snds_F","Stun Pistol",2000],       //Tazer
+						["16Rnd_9x21_Mag",nil,50],                    //Munition Tazer
+						["optic_Aco_smg",nil,500],
+						["optic_Holosight",nil,600],
+						["optic_Hamr",nil,750],
+						["muzzle_snds_H",nil,1500],
+						["acc_flashlight",nil,1000],
 						["HandGrenade_Stone","Flashbang",1700],
-						["arifle_MXC_F",nil,30000],
-						["optic_Arco",nil,2500],
-						["muzzle_snds_H",nil,2750],
-						["30Rnd_65x39_caseless_mag",nil,100],
-						["30Rnd_9x21_Mag",nil,60],
-						["9Rnd_45ACP_Mag",nil,200]
+						["Binocular",nil,150],
+						["ItemGPS",nil,100],
+						["ToolKit",nil,250],
+						["FirstAidKit",nil,150],
+						["NVGoggles",nil,2000]
 					]
 				];
 			};
@@ -206,15 +256,35 @@ switch(_shop) do
 			{
 				["Altis Major Shop",
 					[
-						["SMG_02_ACO_F",nil,15000],
-						["hgun_ACPC2_F",nil,17500],
+					    ["LMG_Mk200_LP_BI_F",nil,10000],              //MK200
+						["200Rnd_65x39_cased_Box",nil,1000],          //Munition MK200
+						["200Rnd_65x39_cased_Box_Tracer",nil,1500],   //Munition tracer MK200
+					    ["arifle_MX_SW_F",nil,7000],                  //MX SW
+						["100Rnd_65x39_caseless_mag",nil,700],        //Munition MX SW
+						["100Rnd_65x39_caseless_mag_Tracer",nil,800], //Munition tracer MX SW
+					    ["arifle_MXM_Black_F",nil,4000],              //MXM Noir
+						["30Rnd_65x39_caseless_mag",nil,350],         //Munition MXM
+						["30Rnd_65x39_caseless_mag_Tracer",nil,450],  //Munition tracer MXM
+					    ["arifle_SDAR_F",nil,3500],                   //SDAR
+						["30Rnd_556x45_Stanag_Tracer_Red",nil,350],   //Munition SDAR
+						["30Rnd_556x45_Stanag",nil,400],              //Munition SDAR tracer
+					    ["arifle_Mk20C_F",nil,2500],                  //MK20
+						["30Rnd_556x45_Stanag",nil,280],              //Munition MK20
+						["SMG_02_F","nil",1000],                      //Sting 9mm
+						["30Rnd_9x21_Mag",nil,250],                   //Munition Sting 9mm
+						["hgun_P07_snds_F","Stun Pistol",2000],       //Tazer
+						["16Rnd_9x21_Mag",nil,50],                    //Munition Tazer
+						["optic_Aco_smg",nil,500],
+						["optic_Holosight",nil,600],
+						["optic_Hamr",nil,750],
+						["muzzle_snds_H",nil,1500],
+						["acc_flashlight",nil,1000],
 						["HandGrenade_Stone","Flashbang",1700],
-						["arifle_MXC_F",nil,30000],
-						["optic_Arco",nil,2500],
-						["muzzle_snds_H",nil,2750],
-						["30Rnd_65x39_caseless_mag",nil,100],
-						["30Rnd_9x21_Mag",nil,60],
-						["9Rnd_45ACP_Mag",nil,200]
+						["Binocular",nil,150],
+						["ItemGPS",nil,100],
+						["ToolKit",nil,250],
+						["FirstAidKit",nil,150],
+						["NVGoggles",nil,2000]
 					]
 				];
 			};
@@ -231,15 +301,39 @@ switch(_shop) do
 			{
 				["Altis Lieutenant Shop",
 					[
-						["SMG_02_ACO_F",nil,15000],
-						["hgun_ACPC2_F",nil,17500],
+					    ["srifle_LRR_F",nil,15000],                   //M320 LRR
+						["7Rnd_408_Mag",nil,900],                     //Munition M320 LRR
+						["optic_DMS",nil,1000],                       //Optic DMS
+						["optic_SOS",nil,2000],                       //Optic SOS
+					    ["LMG_Mk200_LP_BI_F",nil,10000],              //MK200
+						["200Rnd_65x39_cased_Box",nil,1000],          //Munition MK200
+						["200Rnd_65x39_cased_Box_Tracer",nil,1500],   //Munition tracer MK200
+					    ["arifle_MX_SW_F",nil,7000],                  //MX SW
+						["100Rnd_65x39_caseless_mag",nil,700],        //Munition MX SW
+						["100Rnd_65x39_caseless_mag_Tracer",nil,800], //Munition tracer MX SW
+					    ["arifle_MXM_Black_F",nil,4000],              //MXM Noir
+						["30Rnd_65x39_caseless_mag",nil,350],         //Munition MXM
+						["30Rnd_65x39_caseless_mag_Tracer",nil,450],  //Munition tracer MXM
+					    ["arifle_SDAR_F",nil,3500],                   //SDAR
+						["30Rnd_556x45_Stanag_Tracer_Red",nil,350],   //Munition SDAR
+						["30Rnd_556x45_Stanag",nil,400],              //Munition SDAR tracer
+					    ["arifle_Mk20C_F",nil,2500],                  //MK20
+						["30Rnd_556x45_Stanag",nil,280],              //Munition MK20
+						["SMG_02_F","nil",1000],                      //Sting 9mm
+						["30Rnd_9x21_Mag",nil,250],                   //Munition Sting 9mm
+						["hgun_P07_snds_F","Stun Pistol",2000],       //Tazer
+						["16Rnd_9x21_Mag",nil,50],                    //Munition Tazer
+						["optic_Aco_smg",nil,500],
+						["optic_Holosight",nil,600],
+						["optic_Hamr",nil,750],
+						["muzzle_snds_H",nil,1500],
+						["acc_flashlight",nil,1000],
 						["HandGrenade_Stone","Flashbang",1700],
-						["arifle_MXC_F",nil,30000],
-						["optic_Arco",nil,2500],
-						["muzzle_snds_H",nil,2750],
-						["30Rnd_65x39_caseless_mag",nil,100],
-						["30Rnd_9x21_Mag",nil,60],
-						["9Rnd_45ACP_Mag",nil,200]
+						["Binocular",nil,150],
+						["ItemGPS",nil,100],
+						["ToolKit",nil,250],
+						["FirstAidKit",nil,150],
+						["NVGoggles",nil,2000]
 					]
 				];
 			};
@@ -256,15 +350,41 @@ switch(_shop) do
 			{
 				["Altis Capitaine Shop",
 					[
-						["SMG_02_ACO_F",nil,15000],
-						["hgun_ACPC2_F",nil,17500],
+					    ["srifle_LRR_F",nil,15000],                   //M320 LRR
+						["7Rnd_408_Mag",nil,900],                     //Munition M320 LRR
+						["optic_DMS",nil,1000],                       //Optic DMS
+						["optic_SOS",nil,2000],                       //Optic SOS
+					    ["LMG_Mk200_LP_BI_F",nil,10000],              //MK200
+						["200Rnd_65x39_cased_Box",nil,1000],          //Munition MK200
+						["200Rnd_65x39_cased_Box_Tracer",nil,1500],   //Munition tracer MK200
+					    ["arifle_MX_SW_F",nil,7000],                  //MX SW
+						["100Rnd_65x39_caseless_mag",nil,700],        //Munition MX SW
+						["100Rnd_65x39_caseless_mag_Tracer",nil,800], //Munition tracer MX SW
+					    ["arifle_MXM_Black_F",nil,4000],              //MXM Noir
+						["30Rnd_65x39_caseless_mag",nil,350],         //Munition MXM
+						["30Rnd_65x39_caseless_mag_Tracer",nil,450],  //Munition tracer MXM
+					    ["arifle_SDAR_F",nil,3500],                   //SDAR
+						["30Rnd_556x45_Stanag_Tracer_Red",nil,350],   //Munition SDAR
+						["30Rnd_556x45_Stanag",nil,400],              //Munition SDAR tracer
+					    ["arifle_Mk20C_F",nil,2500],                  //MK20
+						["30Rnd_556x45_Stanag",nil,280],              //Munition MK20
+						["SMG_02_F","nil",1000],                      //Sting 9mm
+						["30Rnd_9x21_Mag",nil,250],                   //Munition Sting 9mm
+						["hgun_P07_snds_F","Stun Pistol",2000],       //Tazer
+						["16Rnd_9x21_Mag",nil,50],                    //Munition Tazer
+						["optic_Aco_smg",nil,500],
+						["optic_Holosight",nil,600],
+						["optic_Hamr",nil,750],
+						["muzzle_snds_H",nil,1500],
+						["acc_flashlight",nil,1000],
 						["HandGrenade_Stone","Flashbang",1700],
-						["arifle_MXC_F",nil,30000],
-						["optic_Arco",nil,2500],
-						["muzzle_snds_H",nil,2750],
-						["30Rnd_65x39_caseless_mag",nil,100],
-						["30Rnd_9x21_Mag",nil,60],
-						["9Rnd_45ACP_Mag",nil,200]
+						["B_UAV_01_F",nil,3000],                      //Drone
+						["B_UavTerminal",nil,1500],                   //Terminal Drone
+						["Binocular",nil,150],
+						["ItemGPS",nil,100],
+						["ToolKit",nil,250],
+						["FirstAidKit",nil,150],
+						["NVGoggles",nil,2000]
 					]
 				];
 			};
@@ -281,15 +401,41 @@ switch(_shop) do
 			{
 				["Altis Commandant Shop",
 					[
-						["SMG_02_ACO_F",nil,15000],
-						["hgun_ACPC2_F",nil,17500],
+					    ["srifle_LRR_F",nil,15000],                   //M320 LRR
+						["7Rnd_408_Mag",nil,900],                     //Munition M320 LRR
+						["optic_DMS",nil,1000],                       //Optic DMS
+						["optic_SOS",nil,2000],                       //Optic SOS
+					    ["LMG_Mk200_LP_BI_F",nil,10000],              //MK200
+						["200Rnd_65x39_cased_Box",nil,1000],          //Munition MK200
+						["200Rnd_65x39_cased_Box_Tracer",nil,1500],   //Munition tracer MK200
+					    ["arifle_MX_SW_F",nil,7000],                  //MX SW
+						["100Rnd_65x39_caseless_mag",nil,700],        //Munition MX SW
+						["100Rnd_65x39_caseless_mag_Tracer",nil,800], //Munition tracer MX SW
+					    ["arifle_MXM_Black_F",nil,4000],              //MXM Noir
+						["30Rnd_65x39_caseless_mag",nil,350],         //Munition MXM
+						["30Rnd_65x39_caseless_mag_Tracer",nil,450],  //Munition tracer MXM
+					    ["arifle_SDAR_F",nil,3500],                   //SDAR
+						["30Rnd_556x45_Stanag_Tracer_Red",nil,350],   //Munition SDAR
+						["30Rnd_556x45_Stanag",nil,400],              //Munition SDAR tracer
+					    ["arifle_Mk20C_F",nil,2500],                  //MK20
+						["30Rnd_556x45_Stanag",nil,280],              //Munition MK20
+						["SMG_02_F","nil",1000],                      //Sting 9mm
+						["30Rnd_9x21_Mag",nil,250],                   //Munition Sting 9mm
+						["hgun_P07_snds_F","Stun Pistol",2000],       //Tazer
+						["16Rnd_9x21_Mag",nil,50],                    //Munition Tazer
+						["optic_Aco_smg",nil,500],
+						["optic_Holosight",nil,600],
+						["optic_Hamr",nil,750],
+						["muzzle_snds_H",nil,1500],
+						["acc_flashlight",nil,1000],
 						["HandGrenade_Stone","Flashbang",1700],
-						["arifle_MXC_F",nil,30000],
-						["optic_Arco",nil,2500],
-						["muzzle_snds_H",nil,2750],
-						["30Rnd_65x39_caseless_mag",nil,100],
-						["30Rnd_9x21_Mag",nil,60],
-						["9Rnd_45ACP_Mag",nil,200]
+						["B_UAV_01_F",nil,3000],                      //Drone
+						["B_UavTerminal",nil,1500],                   //Terminal Drone
+						["Binocular",nil,150],
+						["ItemGPS",nil,100],
+						["ToolKit",nil,250],
+						["FirstAidKit",nil,150],
+						["NVGoggles",nil,2000]
 					]
 				];
 			};
@@ -306,15 +452,41 @@ switch(_shop) do
 			{
 				["Altis Général Shop",
 					[
-						["SMG_02_ACO_F",nil,15000],
-						["hgun_ACPC2_F",nil,17500],
+					    ["srifle_LRR_F",nil,15000],                   //M320 LRR
+						["7Rnd_408_Mag",nil,900],                     //Munition M320 LRR
+						["optic_DMS",nil,1000],                       //Optic DMS
+						["optic_SOS",nil,2000],                       //Optic SOS
+					    ["LMG_Mk200_LP_BI_F",nil,10000],              //MK200
+						["200Rnd_65x39_cased_Box",nil,1000],          //Munition MK200
+						["200Rnd_65x39_cased_Box_Tracer",nil,1500],   //Munition tracer MK200
+					    ["arifle_MX_SW_F",nil,7000],                  //MX SW
+						["100Rnd_65x39_caseless_mag",nil,700],        //Munition MX SW
+						["100Rnd_65x39_caseless_mag_Tracer",nil,800], //Munition tracer MX SW
+					    ["arifle_MXM_Black_F",nil,4000],              //MXM Noir
+						["30Rnd_65x39_caseless_mag",nil,350],         //Munition MXM
+						["30Rnd_65x39_caseless_mag_Tracer",nil,450],  //Munition tracer MXM
+					    ["arifle_SDAR_F",nil,3500],                   //SDAR
+						["30Rnd_556x45_Stanag_Tracer_Red",nil,350],   //Munition SDAR
+						["30Rnd_556x45_Stanag",nil,400],              //Munition SDAR tracer
+					    ["arifle_Mk20C_F",nil,2500],                  //MK20
+						["30Rnd_556x45_Stanag",nil,280],              //Munition MK20
+						["SMG_02_F","nil",1000],                      //Sting 9mm
+						["30Rnd_9x21_Mag",nil,250],                   //Munition Sting 9mm
+						["hgun_P07_snds_F","Stun Pistol",2000],       //Tazer
+						["16Rnd_9x21_Mag",nil,50],                    //Munition Tazer
+						["optic_Aco_smg",nil,500],
+						["optic_Holosight",nil,600],
+						["optic_Hamr",nil,750],
+						["muzzle_snds_H",nil,1500],
+						["acc_flashlight",nil,1000],
 						["HandGrenade_Stone","Flashbang",1700],
-						["arifle_MXC_F",nil,30000],
-						["optic_Arco",nil,2500],
-						["muzzle_snds_H",nil,2750],
-						["30Rnd_65x39_caseless_mag",nil,100],
-						["30Rnd_9x21_Mag",nil,60],
-						["9Rnd_45ACP_Mag",nil,200]
+						["B_UAV_01_F",nil,3000],                      //Drone
+						["B_UavTerminal",nil,1500],                   //Terminal Drone
+						["Binocular",nil,150],
+						["ItemGPS",nil,100],
+						["ToolKit",nil,250],
+						["FirstAidKit",nil,150],
+						["NVGoggles",nil,2000]
 					]
 				];
 			};
