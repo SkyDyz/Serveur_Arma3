@@ -375,14 +375,5 @@ class Life_Client_Core
 		class safeFix {};
 		class vehicleGarage {};
 		class gangDeposit {};
-		class Dialog_Controls
-	{
-		file = "dialog\function";
-		class setMapPosition {};
-		class displayHandler {};
-		...
-		class vehicleGarage {};
-		class gangDeposit {};
-		class InsureCar{};
-	};
+		class Dialog_Controls{};
 };
