@@ -21,7 +21,7 @@ hint "Sauvegarde Automatique."
 Description: Saves the player's gear every 10 minutes. 
 
 while {true} do {
-    sleep 30;
+    sleep 600;
     if (alive player) then {
         if (playerside == west) then {
         [] call life_fnc_sessionUpdate;
@@ -32,4 +32,4 @@ while {true} do {
     hint "Sauvegarde Automatique."
     };
     };
-}; */ 
+}; */   

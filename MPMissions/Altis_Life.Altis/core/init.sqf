@@ -103,4 +103,7 @@ life_fnc_garageRefund = compileFinal
 
 [] execVM "core\init_survival.sqf";
 
+// Init automatically saving gear
+[] spawn life_fnc_autoSave; 
+
 __CONST__(life_paycheck,life_paycheck); //Make the paycheck static.
