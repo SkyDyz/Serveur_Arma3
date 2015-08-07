@@ -8,7 +8,7 @@ Saves the player's gear every 10 minutes.
 */
 
 while {true} do {
-sleep 600;
+sleep 30;
 [] call SOCK_fnc_updateRequest;
 hint "Sauvegarde Automatique."
 };
