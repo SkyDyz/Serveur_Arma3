@@ -84,6 +84,22 @@ switch (_code) do
 		};
 	};
 	
+	//SHIFT+ V
+    case 47:
+    {
+        if(_shift) then {_handled = true;};
+        if (_shift && vehicle player == player && !(player getVariable ["restrained", false]) && !(player getVariable ["Civrestrained", false]) && (animationState player) != "Incapacitated" && !life_istazed) then
+        {
+            if (player getVariable ["surrender", false]) then
+            {
+                player setVariable ["surrender", false, true];
+            } else
+            {
+                [] spawn life_fnc_surrender;
+            };
+        };
+    };
+	
 	//Interaction key (default is Left Windows, can be mapped via Controls -> Custom -> User Action 10)
 	case _interactionKey:
 	{
@@ -252,5 +268,41 @@ switch (_code) do
 		};
 	};
 };
+
+// ANTI ALT + F4
+	 case 62:
+{
+    if(_alt && !_shift) then 
+	{
+	SOCK_fnc_updateRequest;
+    diag_log format ["SERVEUR KOSMOS: %1 utilise ALT+F4 pour se déconnecter (Prenez une capture et signalez le sur le Forum)",_player getVariable["realname",name _player]];
+    [[1,format["SERVEUR KOSMOS: %1 utilise ALT+F4 pour se déconnecter (Prenez une capture et signalez le sur le Forum)",_player getVariable["realname",name _player]]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
+	SOCK_fnc_updateRequest;
+    };
+};
+	
+// ANTI CTRL + ALT + DEL
+    case 211:
+{
+    if(_ctrlKey && _alt)  then 
+    {
+	SOCK_fnc_updateRequest;
+    diag_log format ["SERVEUR KOSMOS: %1 utilise CTRL + ALT + DEL pour se déconnecter (Prenez une capture et signalez le sur le Forum)",_player getVariable["realname",name _player]];
+    [[1,format["SERVEUR KOSMOS: %1 utilise CTRL + ALT + DEL  pour se déconnecter (Prenez une capture et signalez le sur le Forum)",_player getVariable["realname",name _player]]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
+	SOCK_fnc_updateRequest;
+    };
+};
+	
+// ANTI CTRL + ESC
+    case 1:
+{
+    if( _ctrlKey )  then 
+	{
+	SOCK_fnc_updateRequest;
+    diag_log format ["SERVEUR KOSMOS: %1 utilise CTRL + ESC pour se déconnecter (Prenez une capture et signalez le sur le Forum)",_player getVariable["realname",name _player]];
+    [[1,format["SERVEUR KOSMOS: %1 utilise CTRL + ESC pour se déconnecter (Prenez une capture et signalez le sur le Forum)",_player getVariable["realname",name _player]]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
+       SOCK_fnc_updateRequest;
+	};
+};	
 
 _handled;

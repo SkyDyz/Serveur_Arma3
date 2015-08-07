@@ -44,7 +44,6 @@ class Life_Client_Core
 		class initMedic {};
 		class welcomeNotification {};
 	};
-	
 	class Admin
 	{
 		file = "core\admin";
@@ -53,6 +52,14 @@ class Life_Client_Core
 		class admingetID {};
 		class adminMenu {};
 		class adminQuery {};
+		class adminSpectate {};
+        class adminTeleport {};
+        class adminTpHere {};
+        class adminDebugCon {};
+        class adminCompensate {};
+        class adminGodMode {};
+        class adminFreeze {};
+        class adminMarkers {};
 	};
 	
 	class Medical_System
@@ -249,6 +256,7 @@ class Life_Client_Core
 		class removeLicenses {};
 		class demoChargeTimer {};
 		class civLoadout {};
+		class freezePlayer {};
 	};
 	
 	class Vehicle
@@ -293,8 +301,6 @@ class Life_Client_Core
 		class fedCamDisplay {};
 		class copLoadout {};
 		class ticketPaid {};
-		class showArrestDialog {}; //changed
-		class arrestDialog_Arrest {}; //changed
 	};
 	
 	class Gangs
@@ -350,6 +356,7 @@ class Life_Client_Core
 		class blastingCharge {};
 		class defuseKit {};
 		class storageBox {};
+		class CarAlarmSound{};
 	};
 	
 	class Dialog_Controls
@@ -375,5 +382,6 @@ class Life_Client_Core
 		class safeFix {};
 		class vehicleGarage {};
 		class gangDeposit {};
-		class Dialog_Controls{};
+		class InsureCar{};
+	};
 };
