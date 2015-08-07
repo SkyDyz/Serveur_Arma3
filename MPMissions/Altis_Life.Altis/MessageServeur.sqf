@@ -10,9 +10,11 @@ while {true} do
 	sleep 20;
 	titleText ["Reeboot du serveur à 00h00,04h00,08h00,16h00","PLAIN"];
 	sleep 20;
-	titleText ["N'oubliez pas de vous inscrire sur le forum ! :","PLAIN"];
+	titleText ["N'oubliez pas de vous inscrire sur le forum ! ","PLAIN"];
 	sleep 20;
-	titleText ["TeamSpeak obligatiore ! austri.fr:9988","PLAIN"];
+	titleText ["TeamSpeak obligatoire ! austri.fr:9988","PLAIN"];
+/*	sleep 10;
+    titleText ["Votre Message","PLAIN"];
 	sleep 10;
 	titleText ["Votre Message","PLAIN"];
 	sleep 10;
@@ -23,7 +25,6 @@ while {true} do
 	titleText ["Votre Message","PLAIN"];
 	sleep 10;
 	titleText ["Votre Message","PLAIN"];
-	sleep 10;
-	titleText ["Votre Message","PLAIN"];
-	sleep 10;
+	*/
+	sleep 360;
 };
